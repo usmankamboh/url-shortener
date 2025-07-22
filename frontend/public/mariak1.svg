@@ -1,0 +1,15 @@
+<svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="red"></stop>
+      <stop offset="50%" stop-color="orange"></stop>
+      <stop offset="100%" stop-color="blue"></stop>
+    </linearGradient>
+    <filter id="boldShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="1.5" dy="1.5" stdDeviation="1" flood-color="black" flood-opacity="0.4"></feDropShadow>
+    </filter>
+  </defs>
+  <text x="50%" y="55%" text-anchor="middle" dominant-baseline="middle" font-family="Arial Black, Arial, sans-serif" font-size="52" font-weight="900" fill="url(#gradient)" filter="url(#boldShadow)">
+    Maria K.
+  </text>
+</svg>
